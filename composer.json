@@ -1,0 +1,27 @@
+{
+    "name": "aminkt/payment",
+    "description": "Online payment library for php.",
+    "keywords": ["payment", "gateway", "online", "shopping"],
+    "type": "library",
+    "support": {
+    	"source": "https://github.com/aminkt/php-payment"
+    },
+    "authors": [
+    	{
+    		"name": "Amin Keshavarz",
+    		"email": "ak_1596@yahoo.com"
+    	}
+    ],
+    "require": {
+      "php": ">=7.1",
+      "ext-openssl": "*",
+      "ext-soap": "*",
+      "aminkt/exceptions": "v1.0.0.x-dev"
+    },
+  "autoload": {
+    "psr-4": {
+      "aminkt\\yii2\\payment\\": "src",
+      "aminkt\\yii2\\payment\\\\test\\": "tests"
+    }
+  }
+}
